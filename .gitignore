@@ -1,0 +1,14 @@
+target
+*.classes
+*.xc
+bin
+.DS_Store
+.idea
+*.iml
+.DS_Store
+.project
+.settings
+.classpath
+local.properties
+gen
+target
