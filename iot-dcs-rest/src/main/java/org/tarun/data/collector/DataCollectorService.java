@@ -13,7 +13,7 @@ public class DataCollectorService {
     @Path("/{param}")
     public Response getMsg(@PathParam("param") String msg) {
 
-        String output = "Jersey say : " + msg;
+        String output = "Data Collector Service say : " + msg;
 
         return Response.status(200).entity(output).build();
 
