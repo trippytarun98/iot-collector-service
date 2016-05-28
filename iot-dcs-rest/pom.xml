@@ -39,6 +39,12 @@
             <version>2.4</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.tarun.data.collector</groupId>
+            <artifactId>iot-dcs-data</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+
 
     </dependencies>
 

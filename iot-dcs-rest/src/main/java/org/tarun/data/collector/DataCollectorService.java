@@ -2,6 +2,9 @@ package org.tarun.data.collector;
 
 
 import com.google.gson.Gson;
+import org.tarun.data.collector.data.DataCollectorRepository;
+import org.tarun.data.collector.data.DataCollectorRepositoryImpl;
+import org.tarun.data.collector.data.model.DeviceData;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -20,10 +23,15 @@ public class DataCollectorService {
 
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
-    public Response getMsg(DataCollectorRequest request) {
+    public Response saveData(DataCollectorRequest request) {
         Gson gson = new Gson();
         System.out.println("Received request :" + gson.toJson(request));
-        return Response.status(200).entity(gson.toJson(request)).build();
+        DeviceData deviceData = new DeviceData();
+        deviceData.setDeviceId(request.getDeviceId());
+        deviceData.setDeviceData(request.getDeviceData());
+        deviceData = DataCollectorRepositoryImpl.getInstance().saveData(deviceData);
+
+        return Response.status(200).entity(gson.toJson(deviceData)).build();
     }
 
 
