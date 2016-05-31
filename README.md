@@ -10,6 +10,7 @@ Architecture
 
 	![alt tag](https://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)
 
+
 Design
    I designed the project by downloading certain apps and programs.
    The data collection server has the below maven modules
@@ -28,4 +29,4 @@ Project Structure
     iot-dcs-mobile
       - Module for the demo android app
 
-        
+
