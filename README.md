@@ -14,12 +14,12 @@
 	The collected data can be used for various analysis.The high performance REST data collector service can 
 	receive large amount of data and store it in Cassandra.
 	
-**Architecture**
+<h3>Architecture</h3>
 
 ![Architecture](https://cloud.githubusercontent.com/assets/16579865/15662865/761798c2-26a9-11e6-9b9f-bcd5022db19b.png "Architeture Image")
 
 
-**Project Structure**
+</h3>Project Structure</h3>
         The data collection server has below maven modules.
 
 	iot-dcs-data
@@ -34,7 +34,7 @@
    	iot-dcs-mobile
       		- Module for the demo android app
 
-**Tools/External Library**
+<h3>Tools/External Library</h3>
 
    Maven
 
