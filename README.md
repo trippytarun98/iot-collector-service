@@ -7,10 +7,7 @@ The data collection server has the below maven modules
    The purpose of the project is to transfer the data inputed by consumers at high speeds to storage. The three ways for consumers to input data is through internet, mobile, and an iot device. The tools that are used in my project include the cassandra progam, an arduino device, and an installed mobile app. With these devices, consumers can input data from anywhere at high paces.
 
 **Architecture**
-
-	<img width="579" alt="architecture" src="https://cloud.githubusercontent.com/assets/16579865/15662865/761798c2-26a9-11e6-9b9f-bcd5022db19b.png">
-
-
+![Architecture](https://cloud.githubusercontent.com/assets/16579865/15662865/761798c2-26a9-11e6-9b9f-bcd5022db19b.png "Architeture Image")
 **Design**
 
    I designed the project by downloading certain apps and programs.
