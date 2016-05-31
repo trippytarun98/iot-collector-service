@@ -2,17 +2,16 @@
 
 The data collection server has the below maven modules
 
-Overview
+**Overview**
 
    The purpose of the project is to transfer the data inputed by consumers at high speeds to storage. The three ways for consumers to input data is through internet, mobile, and an iot device. The tools that are used in my project include the cassandra progam, an arduino device, and an installed mobile app. With these devices, consumers can input data from anywhere at high paces.
 
-Architecture
+**Architecture**
 
-	[![Architecture](http://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)]
+	![Architecture](https://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)
 
+**Design**
 
-
-Design
    I designed the project by downloading certain apps and programs.
    The data collection server has the below maven modules
 
