@@ -3,7 +3,6 @@
 The data collection server has the below maven modules
 
 **Overview**
-
 	The Internet of Things (IoT) is the next technological revolution, expected to generate over $300 B by year 2020, according to Gartner. 
 The IoT will also generate unprecedented amounts of data and its impact will be felt across the entire big data universe.
 	In this project, I have built the data collector server, which can collect and store massive amount of data from various devices. 
