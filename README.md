@@ -8,7 +8,7 @@ Overview
 
 Architecture
 
-	![Alt text](http://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png "Architecture")
+	[![Architecture](http://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)]
 
 
 
