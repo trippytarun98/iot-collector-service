@@ -13,7 +13,7 @@ The data collection server has the below maven modules
    I designed the project by downloading certain apps and programs.
    The data collection server has the below maven modules
 
-Project Structure
+**Project Structure**
 
    iot-dcs-data
       - Module responsible to read and writes data from cassandra.
@@ -23,8 +23,18 @@ Project Structure
 
    iot-dcs-server
       - Module responsible to create a war file and integrate with a jetty server
-
-    iot-dcs-mobile
+    
+   iot-dcs-mobile
       - Module for the demo android app
 
+**Tools/External Library**
+   Maven
+   Cassandra
+   Jetty
+   Jersey
+   Github
+   IntelliJ
+   Android Studio
+   Arduino 
+   
 
