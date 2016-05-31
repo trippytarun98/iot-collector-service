@@ -1,8 +1,7 @@
 <h2>Data Collection Server</h2>
 
 
-**Overview**
-
+<h3>Overview</h3>
 	<b>
 	The Internet of Things (IoT) is the next technological revolution, expected to generate over $300 B by year 2020, according to Gartner.
 	The IoT will also generate unprecedented amounts of data and its impact will be felt across the entire big data universe.
