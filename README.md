@@ -19,7 +19,7 @@
 ![Architecture](https://cloud.githubusercontent.com/assets/16579865/15662865/761798c2-26a9-11e6-9b9f-bcd5022db19b.png "Architeture Image")
 
 
-</h3>Project Structure</h3>
+<h3>Project Structure</h3>
         The data collection server has below maven modules.
 
 	iot-dcs-data
