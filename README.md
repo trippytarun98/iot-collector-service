@@ -8,8 +8,8 @@ Overview
 
 Architecture
 
-	![alt tag](http://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)
-	
+	![Alt text](http://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png "Architecture")
+
 
 
 Design
