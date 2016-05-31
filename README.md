@@ -8,7 +8,7 @@ The data collection server has the below maven modules
 
 **Architecture**
 
-	![Architecture](https://github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)
+	![Architecture](https://raw.github.com/trippytarun98/iot-collector-service/blob/master/architecture.png)
 
 **Design**
 
