@@ -2,14 +2,17 @@
 
 The data collection server has the below maven modules
 
-iot-dcs-data
-   - Module responsible to read and writes data from cassandra.
+Overview
+   The purpose of the project is to transfer the data inputed by consumers at high speeds to storage. The three ways for consumers to input data is through internet, mobile, and an iot device. The tools that are used in my project include the cassandra progam, an arduino device, and an installed mobile app. With these devices, consumers can input data from anywhere at high paces.
+Design
+   I designed the project by downloading certain apps and programs.
+   The data collection server has the below maven modules
 
-iot-dcs-rest
-   - Module responsible to expose the data collector resting points
+   iot-dcs-data
+      - Module responsible to read and writes data from cassandra.
 
-iot-dcs-server
-   - Module responsible to create a war file and integrate with a jetty server
+   iot-dcs-rest
+      - Module responsible to expose the data collector resting points
 
-
-
+   iot-dcs-server
+      - Module responsible to create a war file and integrate with a jetty server
