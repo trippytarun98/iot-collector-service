@@ -4,8 +4,8 @@ The data collection server has the below maven modules
 
 **Overview**
 
-   The purpose of the project is to transfer the data inputed by consumers at high speeds to storage. The three ways for consumers to input data is through internet, mobile, and an iot device. The tools that are used in my project include the cassandra progam, an arduino device, and an installed mobile app. With these devices, consumers can input data from anywhere at high paces.
-
+	 The Internet of Things (IoT) is the next technological revolution, expected to generate over $300 B by year 2020, according to Gartner. The IoT will also generate unprecedented amounts of data and its impact will be felt across the entire big data universe.
+	In this project, I have built the data collector server, which can collect and store massive amount of data from various devices. This data can be used for various analysis.The high performance REST data collector service can receive large amount of data and store it in Cassandra.
 **Architecture**
 ![Architecture](https://cloud.githubusercontent.com/assets/16579865/15662865/761798c2-26a9-11e6-9b9f-bcd5022db19b.png "Architeture Image")
 **Design**
